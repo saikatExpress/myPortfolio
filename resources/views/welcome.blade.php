@@ -697,20 +697,33 @@
         </div>
       </div>
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+      <form action="{{ route('contact') }}" method="post" role="form" class="php-email-form mt-4">
+        @csrf
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            @error('name')
+                <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
           </div>
           <div class="col-md-6 form-group mt-3 mt-md-0">
             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            @error('email')
+                <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
           </div>
         </div>
         <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            @error('subject')
+                <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
         </div>
         <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            @error('message')
+                <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
         </div>
         <div class="my-3">
           <div class="loading">Loading</div>
@@ -721,13 +734,10 @@
       </form>
 
     </div>
-  </section><!-- End Contact Section -->
+  </section>
+  <!-- End Contact Section -->
 
   <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
     Designed by <a href="https://github.com/saikatExpress">TS WEB BUILD</a>
   </div>
 
