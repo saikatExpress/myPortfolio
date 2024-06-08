@@ -306,7 +306,7 @@
                 <div class="testimonial-item">
                 <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Working with [Saikat Talukder] was an absolute pleasure. Their expertise in web development and attention to detail truly impressed us. They delivered a flawless website that perfectly captured our vision.
+                    Working with Saikat Talukder was an absolute pleasure. Their expertise in web development and attention to detail truly impressed us. They delivered a flawless website that perfectly captured our vision.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -319,7 +319,7 @@
                 <div class="testimonial-item">
                 <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    [Saikat Talukder]'s professionalism and expertise in web development are truly commendable. They delivered our project on time and exceeded our expectations. We highly recommend their services to anyone looking for top-notch web development solutions.
+                    Saikat Talukder's professionalism and expertise in web development are truly commendable. They delivered our project on time and exceeded our expectations. We highly recommend their services to anyone looking for top-notch web development solutions.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -332,7 +332,7 @@
                 <div class="testimonial-item">
                 <p>
                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    We were impressed by [Saikat Talukder]'s creativity and technical expertise in web development. They transformed our ideas into a stunning website that perfectly reflects our brand. We look forward to working with them again in the future.
+                    We were impressed by Saikat Talukder's creativity and technical expertise in web development. They transformed our ideas into a stunning website that perfectly reflects our brand. We look forward to working with them again in the future.
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
