@@ -45,6 +45,7 @@
           <li><a class="nav-link" href="#services">Services</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="{{ url('create/dictionary') }}">Dictionary</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

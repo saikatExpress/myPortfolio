@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DictionaryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +21,9 @@ Route::get('/', function () {
 
 Route::controller(ContactController::class)->group(function(){
     Route::post('/contact', 'store')->name('contact');
+});
+
+Route::controller(DictionaryController::class)->group(function(){
+    Route::get('/create/dictionary', 'create');
+    Route::post('/word/store', 'store');
 });
